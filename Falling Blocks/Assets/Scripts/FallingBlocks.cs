@@ -8,7 +8,7 @@ public class FallingBlocks : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating("SpawnBlock", 2.0f, 0.5f);
+		InvokeRepeating("SpawnBlock", 2.0f, 0.7f);
 	}
 	
 	// Update is called once per frame
@@ -17,6 +17,6 @@ public class FallingBlocks : MonoBehaviour {
 
 	void SpawnBlock(){
 		GameObject instance = Instantiate (FallingBlock);
-		instance.transform.position = new Vector3(Random.Range(-7.5f, 7.5f), 5.8f, 0f);
+		instance.transform.position = new Vector3(Random.Range(-7.5f, 7.5f), 8.0f, 0f);
 	}
 }
