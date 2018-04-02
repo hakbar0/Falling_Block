@@ -8,5 +8,4 @@ public class LevelManager : MonoBehaviour {
 	public void FirstScene (){
 		SceneManager.LoadScene("Main");
 	}
-
 }
