@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 54017489673401798}
   - component: {fileID: 114972718361192384}
   m_Layer: 0
-  m_Name: Block
+  m_Name: Faster Block 1
   m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ec52b72c54d7247c4a03b30dcab44693, type: 2}
+  - {fileID: 2100000, guid: 6ae737126e155f64e95a02287d94a487, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
